@@ -1,0 +1,60 @@
+.body {
+	margin-top: 10px;
+}
+.load {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.body2 {
+	margin:0;
+	-website-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 5% 20%;
+}
+.movie {
+	display: grid;
+    grid-template-columns: repeat(7, minmax(auto, 1fr));
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #46A1D4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.newPost_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 300px;
+}
